@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 const UglyThingsContext = React.createContext();
 
+
+
+console.log('this is a test');
+
 class UglyContextProvider extends Component {
 	state = {
 		isLoading: false,
