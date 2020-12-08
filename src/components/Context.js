@@ -19,7 +19,6 @@ class UglyContextProvider extends Component {
 		let requestOptions = {
 			method: 'GET',
 			headers: myHeaders,
-			// mode: 'no-cors',
 		};
 
 		fetch('https://api.vschool.io/danny/thing/', requestOptions)
@@ -51,7 +50,6 @@ class UglyContextProvider extends Component {
 
 		var myHeaders = new Headers();
 		myHeaders.append('Content-Type', 'application/json');
-		myHeaders.append('Access-Control-Allow-Origin', '*');
 
 		let requestOptions = {
 			method: 'POST',
@@ -78,7 +76,6 @@ class UglyContextProvider extends Component {
 			method: 'DELETE',
 			headers: myHeaders,
 			redirect: 'follow',
-			mode: 'cors',
 		};
 
 		fetch('https://api.vschool.io/danny/thing/' + id, requestOptions)
