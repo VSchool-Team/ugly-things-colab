@@ -4,6 +4,8 @@ import UglyImage from './UglyImage';
 function ImageList() {
 	const context = useContext(UglyThingsContext);
 
+	// console.log(context);
+
 	useEffect(() => {
 		context.loadImages();
 		// eslint-disable-next-line react-hooks/exhaustive-deps
