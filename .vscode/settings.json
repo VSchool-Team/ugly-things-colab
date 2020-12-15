@@ -3,5 +3,6 @@
     "activityBar.background": "#273119",
     "titleBar.activeBackground": "#364523",
     "titleBar.activeForeground": "#FAFCF8"
-  }
+  }, 
+  "css.customData": [".vscode/css_custom_data.json"]
 }

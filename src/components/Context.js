@@ -9,6 +9,7 @@ class UglyContextProvider extends Component {
 			title: '',
 			description: '',
 			imgUrl: '',
+			_id: ''
 		},
 		uglyImages: [],
 	};
